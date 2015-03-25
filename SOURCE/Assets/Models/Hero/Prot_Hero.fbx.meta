@@ -1,0 +1,4050 @@
+fileFormatVersion: 2
+guid: 0e40dee1672f8834e97563ff2e286df9
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Biped
+    100002: Def_Chest
+    100004: Def_Fingers1_L
+    100006: Def_Fingers1_R
+    100008: Def_Fingers2_L
+    100010: Def_Fingers2_R
+    100012: Def_Foot_L
+    100014: Def_Foot_R
+    100016: Def_Hand_L
+    100018: Def_Hand_R
+    100020: Def_Head
+    100022: Def_Hips
+    100024: Def_LwrArm_L
+    100026: Def_LwrArm_R
+    100028: Def_LwrLeg_L
+    100030: Def_LwrLeg_R
+    100032: Def_Neck
+    100034: Def_Shoulder_L
+    100036: Def_Shoulder_R
+    100038: Def_Spine
+    100040: Def_Thumb_L
+    100042: Def_Thumb_R
+    100044: Def_Toe_L
+    100046: Def_Toe_R
+    100048: Def_UprArm_L
+    100050: Def_UprArm_R
+    100052: Def_UprLeg_L
+    100054: Def_UprLeg_R
+    100056: Main
+    100058: Mesh_Biped
+    100060: //RootNode
+    100062: Rig_Biped
+    100064: Root
+    400000: Biped
+    400002: Def_Chest
+    400004: Def_Fingers1_L
+    400006: Def_Fingers1_R
+    400008: Def_Fingers2_L
+    400010: Def_Fingers2_R
+    400012: Def_Foot_L
+    400014: Def_Foot_R
+    400016: Def_Hand_L
+    400018: Def_Hand_R
+    400020: Def_Head
+    400022: Def_Hips
+    400024: Def_LwrArm_L
+    400026: Def_LwrArm_R
+    400028: Def_LwrLeg_L
+    400030: Def_LwrLeg_R
+    400032: Def_Neck
+    400034: Def_Shoulder_L
+    400036: Def_Shoulder_R
+    400038: Def_Spine
+    400040: Def_Thumb_L
+    400042: Def_Thumb_R
+    400044: Def_Toe_L
+    400046: Def_Toe_R
+    400048: Def_UprArm_L
+    400050: Def_UprArm_R
+    400052: Def_UprLeg_L
+    400054: Def_UprLeg_R
+    400056: Main
+    400058: Mesh_Biped
+    400060: //RootNode
+    400062: Rig_Biped
+    400064: Root
+    4300000: Mesh_Biped
+    7400000: Attack_Hor
+    7400002: Attack_Pierc
+    7400004: Attack_Stab
+    7400006: Attack_Vert
+    7400008: AttackStomp
+    7400010: BlockHit
+    7400012: Blocking
+    7400014: ClimbLadder
+    7400016: ClimbLedge
+    7400018: Crouch
+    7400020: Death_1
+    7400022: Death_2
+    7400024: DodgeBack
+    7400026: FallHigh
+    7400028: Gun_BowAimDOWN
+    7400030: Gun_BowAimFRONT
+    7400032: Gun_BowAimUP
+    7400034: Gun_BowStretch
+    7400036: Gun_PistolAimDOWN
+    7400038: Gun_PistolAimFRONT
+    7400040: Gun_PistolAimUP
+    7400042: Gun_PistolSHOOT
+    7400044: Gun_RifleAimDOWN
+    7400046: Gun_RifleAimFRONT
+    7400048: Gun_RifleAimUP
+    7400050: Gun_RifleSHOOT
+    7400052: HIt2
+    7400054: HItStill
+    7400056: HomeRun
+    7400058: Idle
+    7400060: JumpBack
+    7400062: JumpFront
+    7400064: JumpStill
+    7400066: Run
+    7400068: RunBreakWall
+    7400070: RunStill
+    7400072: WalkStill
+    7400074: Walk
+    7400076: Walk_Left
+    7400078: Run_Left
+    7400080: Attack_HorCrouch
+    9500000: //RootNode
+    13700000: Mesh_Biped
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_Hor
+      takeName: Attack_Hor
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_Pierc
+      takeName: Attack_Pierc
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_Stab
+      takeName: Attack_Stab
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_Vert
+      takeName: Attack_Vert
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackStomp
+      takeName: AttackStomp
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BlockHit
+      takeName: BlockHit
+      firstFrame: 1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Blocking
+      takeName: Blocking
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ClimbLadder
+      takeName: ClimbLadder
+      firstFrame: 1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ClimbLedge
+      takeName: ClimbLedge
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Crouch
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_1
+      takeName: Death_1
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_2
+      takeName: Death_2
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DodgeBack
+      takeName: DodgeBack
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FallHigh
+      takeName: FallHigh
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_BowAimDOWN
+      takeName: Gun_BowAimDOWN
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_BowAimFRONT
+      takeName: Gun_BowAimFRONT
+      firstFrame: .959999979
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_BowAimUP
+      takeName: Gun_BowAimUP
+      firstFrame: .959999979
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_BowStretch
+      takeName: Gun_BowStretch
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_PistolAimDOWN
+      takeName: Gun_PistolAimDOWN
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_PistolAimFRONT
+      takeName: Gun_PistolAimFRONT
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_PistolAimUP
+      takeName: Gun_PistolAimUP
+      firstFrame: .959999979
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_PistolSHOOT
+      takeName: Gun_PistolSHOOT
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_RifleAimDOWN
+      takeName: Gun_RifleAimDOWN
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_RifleAimFRONT
+      takeName: Gun_RifleAimFRONT
+      firstFrame: .959999979
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_RifleAimUP
+      takeName: Gun_RifleAimUP
+      firstFrame: .959999979
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gun_RifleSHOOT
+      takeName: Gun_RifleSHOOT
+      firstFrame: 0
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HIt2
+      takeName: HIt2
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HItStill
+      takeName: HItStill
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HomeRun
+      takeName: HomeRun
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpBack
+      takeName: JumpBack
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpFront
+      takeName: JumpFront
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpStill
+      takeName: JumpStill
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunBreakWall
+      takeName: RunBreakWall
+      firstFrame: 1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunStill
+      takeName: RunStill
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkStill
+      takeName: WalkStill
+      firstFrame: 1
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Biped
+        weight: 1
+      - path: Biped/Rig_Biped
+        weight: 1
+      - path: Biped/Rig_Biped/Root
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Neck/Def_Head
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Fingers1_L/Def_Fingers2_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_L/Def_UprArm_L/Def_LwrArm_L/Def_Hand_L/Def_Thumb_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Fingers1_R/Def_Fingers2_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_Spine/Def_Chest/Def_Shoulder_R/Def_UprArm_R/Def_LwrArm_R/Def_Hand_R/Def_Thumb_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_L/Def_LwrLeg_L/Def_Foot_L/Def_Toe_L
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R
+        weight: 1
+      - path: Biped/Rig_Biped/Root/Main/Def_Hips/Def_UprLeg_R/Def_LwrLeg_R/Def_Foot_R/Def_Toe_R
+        weight: 1
+      - path: Mesh_Biped
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Def_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_UprLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_UprLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_LwrLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_LwrLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_UprArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_UprArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_LwrArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_LwrArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Thumb_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Fingers1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Fingers2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Thumb_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Fingers1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Def_Fingers2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Prot_Hero(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Biped
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -3.77489506e-08, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Rig_Biped
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root
+      position: {x: -1.06588002e-10, y: .99840796, z: .00238771481}
+      rotation: {x: .50000006, y: -.49999994, z: -.50000006, w: -.49999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Main
+      position: {x: -1.10000001e-14, y: 9.00000035e-15, z: 0}
+      rotation: {x: 1.50995803e-07, y: -1.13970003e-14, z: 1.72089918e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Def_Hips
+      position: {x: 1.10000001e-14, y: 9.00000035e-15, z: 0}
+      rotation: {x: -.675878465, y: 7.81727305e-09, z: -.737013102, w: 3.16446247e-08}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Def_Spine
+      position: {x: 1.063745e-08, y: -4.00000001e-15, z: 6.98491986e-10}
+      rotation: {x: -1.37851174e-07, y: -.99878335, z: 2.80194655e-07, w: -.0493135601}
+      scale: {x: .999999881, y: .999999881, z: .999988437}
+      transformModified: 1
+    - name: Def_Chest
+      position: {x: -.196002424, y: 1.47977799e-08, z: -9.25716004e-10}
+      rotation: {x: -2.67365294e-07, y: .00609121099, z: -4.21468265e-08, w: .999981523}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Def_Neck
+      position: {x: -.278904915, y: 2.10567332e-08, z: 0}
+      rotation: {x: 2.79976511e-11, y: -2.02123971e-08, z: -4.21468478e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Def_Head
+      position: {x: -.099537611, y: 7.51486429e-09, z: 2.80000005e-14}
+      rotation: {x: 1.78208397e-14, y: -2.02124184e-08, z: 4.21468478e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Def_Shoulder_L
+      position: {x: -.256939143, y: -.0258399993, z: .0394747108}
+      rotation: {x: -.427942872, y: -.569774866, z: .461197108, w: .528695345}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Def_UprArm_L
+      position: {x: -.0954461023, y: 6.66295819e-09, z: -4.65079211e-08}
+      rotation: {x: .0025651285, y: .0318406746, z: .0643537939, w: .997415781}
+      scale: {x: .999999464, y: 1.00000024, z: .999999762}
+      transformModified: 1
+    - name: Def_LwrArm_L
+      position: {x: -.366576165, y: 3.21530536e-08, z: -3.62342689e-08}
+      rotation: {x: .0014796413, y: -.00610277103, z: .0703682378, w: .997501373}
+      scale: {x: .999999642, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: Def_Hand_L
+      position: {x: -.308719724, y: 2.62950905e-08, z: 1.00983016e-07}
+      rotation: {x: .000330720068, y: .0135654658, z: .0243785437, w: .999610722}
+      scale: {x: .999999821, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Def_Fingers1_L
+      position: {x: -.0814989954, y: 7.53171037e-09, z: 9.13402616e-08}
+      rotation: {x: 4.59864857e-08, y: 7.71869946e-09, z: .0229753442, w: .999736011}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: Def_Fingers2_L
+      position: {x: -.0316634327, y: -1.25759003e-09, z: -1.65113452e-08}
+      rotation: {x: -.000301764143, y: -.0145339463, z: -.0207609739, w: .999678791}
+      scale: {x: .999999702, y: .999999702, z: .99999994}
+      transformModified: 1
+    - name: Def_Thumb_L
+      position: {x: -.0421180949, y: -.0425234586, z: -.0150475064}
+      rotation: {x: .0370539688, y: -.164605811, z: .216461554, w: .9616009}
+      scale: {x: 1.00000024, y: .999999344, z: 1.00000012}
+      transformModified: 1
+    - name: Def_Shoulder_R
+      position: {x: -.256939113, y: .0258400366, z: .0394747108}
+      rotation: {x: -.427942753, y: .569774866, z: .461197138, w: -.528695405}
+      scale: {x: 1, y: 1.00000024, z: .999999821}
+      transformModified: 1
+    - name: Def_UprArm_R
+      position: {x: -.0954461023, y: 7.30869898e-09, z: -5.02332114e-08}
+      rotation: {x: -.00256508659, y: .0318406411, z: -.0643537492, w: .997415781}
+      scale: {x: .999999464, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: Def_LwrArm_R
+      position: {x: -.366576195, y: 2.73043028e-08, z: 7.54807843e-08}
+      rotation: {x: -.00147955725, y: -.00610276498, z: -.0703682527, w: .997501373}
+      scale: {x: .999999404, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: Def_Hand_R
+      position: {x: -.308719754, y: 2.36728646e-08, z: -2.94103302e-08}
+      rotation: {x: -.000330802635, y: .0135654509, z: -.0243785512, w: .999610782}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Def_Fingers1_R
+      position: {x: -.0814990774, y: 6.96523683e-09, z: 7.82929845e-08}
+      rotation: {x: -3.0827787e-09, y: -1.5730546e-10, z: -.022975402, w: .999736071}
+      scale: {x: 1, y: .999999762, z: 1}
+      transformModified: 1
+    - name: Def_Fingers2_R
+      position: {x: -.0316634551, y: 8.70809913e-09, z: -2.99549754e-08}
+      rotation: {x: .000301803375, y: -.0145338951, z: .020761, w: .999678791}
+      scale: {x: .999999821, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: Def_Thumb_R
+      position: {x: -.0421181731, y: .0425234698, z: -.0150475185}
+      rotation: {x: -.0370540321, y: -.164605781, z: -.216461569, w: .9616009}
+      scale: {x: 1.00000036, y: .999999583, z: 1.00000024}
+      transformModified: 1
+    - name: Def_UprLeg_L
+      position: {x: -.0706408694, y: -.0788355023, z: .000477152003}
+      rotation: {x: -.98905015, y: -.00227350183, z: -.108437665, w: -.100080214}
+      scale: {x: 1.00000024, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: Def_LwrLeg_L
+      position: {x: -.396685749, y: 2.94074027e-08, z: 3.72529008e-09}
+      rotation: {x: .97810328, y: .00234446931, z: .116284333, w: -.17258738}
+      scale: {x: .999999464, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: Def_Foot_L
+      position: {x: -.494392872, y: 4.76139803e-08, z: 4.6566101e-10}
+      rotation: {x: -.743212461, y: -.0428036302, z: -.665046155, w: -.0593021102}
+      scale: {x: 1.00000024, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: Def_Toe_L
+      position: {x: -.145157874, y: 2.21120615e-08, z: -3.76265108e-09}
+      rotation: {x: -3.7458048e-07, y: .0542239733, z: 4.17038173e-08, w: .998528838}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Def_UprLeg_R
+      position: {x: -.070640862, y: .0788355172, z: .000477163063}
+      rotation: {x: -.98905009, y: .00227370951, z: -.10843765, w: .100080192}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Def_LwrLeg_R
+      position: {x: -.396685749, y: 2.16517151e-08, z: 7.4505806e-09}
+      rotation: {x: .97810328, y: -.00234458968, z: .116284326, w: .17258738}
+      scale: {x: .999999344, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: Def_Foot_R
+      position: {x: -.494392902, y: 3.13563078e-08, z: 6.98491887e-09}
+      rotation: {x: -.743212581, y: .0428047143, z: -.665046096, w: .0593009703}
+      scale: {x: .999999523, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Def_Toe_R
+      position: {x: -.145157889, y: 7.22177518e-09, z: -1.59116098e-09}
+      rotation: {x: 2.33194953e-07, y: .0542240366, z: 8.80110065e-08, w: .998528838}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: Mesh_Biped
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
